@@ -1,13 +1,20 @@
 # Getting Started and The Essentials
 
 - [Getting Started and The Essentials](#getting-started-and-the-essentials)
-  - [1. Apa itu Design Patterns?](#1-apa-itu-design-patterns)
+  - [1. Introduction](#1-introduction)
   - [2. Getting Started with Java](#2-getting-started-with-java)
   - [3. Classes](#3-classes)
+  - [4. Coupling](#4-coupling)
+  - [5. Interfaces](#5-interfaces)
+  - [6. Encapsulation](#6-encapsulation)
+  - [7. Abstraction](#7-abstraction)
+  - [8. Inheritance](#8-inheritance)
+  - [9. Polymorphism](#9-polymorphism)
+  - [10. UML](#10-uml)
 
-## 1. Apa itu Design Patterns?
+## 1. Introduction
 
-Design patterns adalah solusi-solusi untuk masalah umum atau masalah yang sering muncul dalam pengembangan perangkat lunak. Design patterns membantu kita untuk merancang perangkat lunak berorientasi objek yang dapat digunakan kembali (reusable), dapat diperluas (extensible), dan dapat dipelihara (maintainable). Juga, dapat membantu para developer untuk berkomunikasi pada level abstrak. 
+Untuk dapat lebih memahami bagaimana pattern-pattern yang ada, contoh-contoh akan dijelaskan dengan menggunakan bahasa pemrograman `Java`. Dan bagian-bagian di bawah ini adalah hal-hal yang penting untuk dipahami terlebih dahulu.
 
 ## 2. Getting Started with Java
 
@@ -22,10 +29,10 @@ public class Main {
 }
 ```
 Setiap java program memiliki satu `file` utama dengan nama `class` yang sama, dalam hal ini adalah `Main`. Di dalam file ini terdapat `method` bernama `main` yang mana akan dieksekusi pertama kali ketika program dijalankan. Berikut kata kunci penting untuk dimengerti:
-- `package` adalah kata kunci yang menunjukan dimana file ini didefinisikan.
-- `public` berarti dapat di akses dari mana pun di dalam codebase kita.
-- `static` berarti kita dapat memanggil method ini tanpa harus menginstansiasi sebuah objek dari kelas ini.
-- `void` berarti method ini tidak mengembalikan nilai apapun.
+- `package` menunjukan dimana suatu file atau class didefinisikan.
+- `public` menunjukan suatu entitas (class/method/attribute) dapat di akses dari mana pun di dalam codebase kita.
+- `static` berarti kita dapat memanggil suatu entitas tanpa harus menginstansiasi sebuah objek dari class.
+- `void` menunjukan suatu method tidak mengembalikan nilai apapun.
 
 ## 3. Classes
 `User.java`:
@@ -50,3 +57,17 @@ public class Main {
     }
 }
 ```
+
+## 4. Coupling
+
+## 5. Interfaces
+
+## 6. Encapsulation
+
+## 7. Abstraction
+
+## 8. Inheritance
+
+## 9. Polymorphism
+
+## 10. UML
